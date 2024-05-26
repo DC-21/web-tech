@@ -1,0 +1,27 @@
+<?xml-stylesheet type = "text/css" href = "6a.css" ?>
+<students>
+<VTU>
+<USN> 1PI06ISIS001 </USN>
+<name> Amar </name>
+<college> PESIT </college>
+<branch> ISE</branch>
+<YOJ> 2006 </YOJ>
+<email> amar@gmail.com </email>
+</VTU>
+<VTU>
+<USN> 1PI06ISIS002</USN>
+<name> asha</name>
+<college> PESIT </college>
+<branch> ISE </branch>
+<YOJ> 2006 </YOJ>
+<email> asha@PESIT.in </email>
+</VTU>
+<VTU>
+<USN> 1PI06ISIS003 </USN>
+<name> Bhavya </name>
+<college> PESIT </college>
+<branch> ISE </branch>
+<YOJ> 2006</YOJ>
+<email> bhavya@yahoo.com </email>
+</VTU>
+</students>

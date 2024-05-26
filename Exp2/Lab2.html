@@ -1,0 +1,26 @@
+<html>
+  <body>
+    <script type="text/javascript">
+      //initialize variables
+      var fib1 = 0,
+        fib2 = 1,
+        fib = 0;
+      var n = prompt("enter a number");
+      if (n != null && n > 0) {
+        document.write("<h1>First " + n + " fibonacci numbers are: </h1><br>");
+        //if input is one number
+        if (n == 1) document.write("<h1>" + fib1 + "</h1><br>");
+        //if input is two numbers
+        else
+          document.write("<h1>" + fib1 + "</h1><br><h1>" + fib2 + "</h1><br>");
+        //if input is more than two numbers, find the next Fibonacci number
+        for (i = 3; i <= n; i++) {
+          fib = fib1 + fib2;
+          document.write("<h1>" + fib + "</h1><br>");
+          fib1 = fib2;
+          fib2 = fib;
+        }
+      } else alert("No proper input");
+    </script>
+  </body>
+</html>

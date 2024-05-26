@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Program 4b</title>
+  </head>
+  <script type="text/javascript">
+    function validate() {
+      var pattern1 = /[1-4][A-Z][A-Z][0-9][0-9][A-z][A-Z][0-9][0-9][0-9]$/;
+      var pattern2 = /[1-8]/;
+      usn = document.getElementById("usn");
+      sem = document.getElementById("sem");
+      if (!usn.value.match(pattern1)) alert("Invalid USN");
+      else alert("Valid USN");
+      if (!sem.value.match(pattern2)) alert("Invalid SEM");
+      else alert("Valid SEM");
+    }
+  </script>
+  <body>
+    <form>
+      Enter USN: <input type="text" name="usn" id="usn" /> Enter SEM:
+      <input type="text" name="sem" id="sem" />
+      <input type="submit" value="Check" onclick="validate()" />
+    </form>
+  </body>
+</html>
